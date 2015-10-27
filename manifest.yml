@@ -1,0 +1,8 @@
+---
+applications:
+- name: DevOpsDemoLive
+  host: devopsdemolive
+  command: DevOpsDemoLive
+  buildpack: go_buildpack
+  memory: 25M
+  disk: 100M

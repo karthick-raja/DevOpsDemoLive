@@ -1,0 +1,10 @@
+{
+	"ImportPath": "github.com/karthick-raja/DevOpsDemoLive",
+	"GoVersion": "go1.5.1",
+	"Deps": [
+		{
+			"ImportPath": "github.com/karthick-raja/DevOpsPWS/pkg/devopsutil",
+			"Rev": "f1435ccef17549fb8d04ddacf2e21d14dc96a937"
+		}
+	]
+}

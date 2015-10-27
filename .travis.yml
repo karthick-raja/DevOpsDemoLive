@@ -1,0 +1,13 @@
+language: go
+go:
+- 1.5.1
+deploy:
+  provider: cloudfoundry
+  api: https://api.run.pivotal.io
+  username: karthick.x.pattabiraman@verizon.com
+  password:
+    secure: V+6CRSfShN3N2rsPPCHhaYxHEuaKXh2y4iZIaeON3bttVoeR21vuFOeSx4znNRkJTmIyboXPnDZTEe0rrdn35qTmh9vG2/hDot+k+onzWBp/h7oujbPsfN49NhxBRWa/OzYoSYO5a4c2PJEdeqVT8D2akwBPUOS+YlxUZGeNhp011UzFoLMu7iKB6QB3ZnbFILCDaejNBbLn9M8WSqPRsrQQxLGSzTjVeXAqEPPpM+fAaZSTT/v7k1RSQp6kwLs8121CexeaYYp0bojkFRwk+AWPVY/zH53M37D3c1uQSPACCJhIXqjuhSw5D10Ak8Hsvvy65gW7rC+dDqfyyNPwXXM/EyEG7MSZ8CHd5gyb5xjPbreivE0riMJZS9duLd0MDKg6NXDX8cK3MdPaBqZyBmrmQ80QX7zogQNP1AuZhDOKlrHJ8EgojL62NwTNncfE2gbPP3jHISij0cUwovvJLs8c33K5GvQMugSRCpUkneNYEd7Jc2+p/yWeiZck+yXXjDtH8wIj1zGwlEd7AA1hqwq/gzp5U/ngwXVhYst9B4cea7YZd2mLH6miSTohmRYKYVzhM+5pF71VvlRyJjt00hD5LIxmTrVh2qA0e2aC9SxO/KAHkvr+zvUV7jM9ET53oW5N2+YZvR0j6EsTT2FNZg5gAa2G1FMN0agtcGsqtNE=
+  organization: karthickworkspace
+  space: development
+  on:
+    repo: karthick-raja/DevOpsDemoLive
